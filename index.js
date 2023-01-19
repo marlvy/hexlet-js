@@ -1,6 +1,8 @@
-import fs from "fs";
-import _ from "lodash";
+// import fs from 'fs';
 
-//const data = fs.readFileSync("path/to/file");
-//console.log(data);
-console.log(_.last(["one", "two"]));
+import _ from 'lodash';
+
+console.log(_.last(['one', 'two']));
+
+// const data = fs.readFileSync('path/to/file');
+// console.log(data);
